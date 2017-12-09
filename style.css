@@ -1,4 +1,5 @@
-/*grouping selectors*/
-p, a, .red{
+/*descendant selectors*/
+/*selects all h1 level elements under class 'article'*/
+.article h1{
 	color: red;
 }
