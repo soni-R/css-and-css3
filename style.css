@@ -1,5 +1,6 @@
-/*descendant selectors*/
-/*selects all h1 level elements under class 'article'*/
-.article h1{
+/*child selectors*/
+/*The child selector selects all elements that are the immediate children of a specified element.*/
+
+.article > a{
 	color: red;
 }
