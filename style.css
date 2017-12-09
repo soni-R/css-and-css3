@@ -1,6 +1,4 @@
-/*child selectors*/
-/*The child selector selects all elements that are the immediate children of a specified element.*/
-
-.article > a{
-	color: red;
+/*selects element p with a class of article*/
+p.article{  
+	color: green;
 }
