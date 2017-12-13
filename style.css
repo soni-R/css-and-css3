@@ -1,3 +1,4 @@
-input[type = "text"]{
-	color: brown;
+/*first image will get this styles*/
+img[alt ~= "image1"]{ 
+	border: solid 1px #000;
 }
