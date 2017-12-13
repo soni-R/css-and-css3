@@ -1,4 +1,3 @@
-/*selects element p with a class of article*/
-p.article{  
-	color: green;
+a[href = "http://www.google.com"]{
+	color: brown;
 }
