@@ -1,4 +1,15 @@
-/*first image will get this styles*/
-img[alt ~= "image1"]{ 
-	border: solid 1px #000;
+a:visited{
+	color: brown;
 }
+
+a:hover{
+	text-decoration: none;
+	color: green;
+	font-size: 40px;
+}
+
+p:hover{
+	font-size: 120%;
+	color: red;
+}
+
