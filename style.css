@@ -1,3 +1,11 @@
-input[type="text"]:focus{
-	background-color: #aaa;
+a:link, a:visited{
+	color: #000;
+}
+
+a:hover{
+	color: green;
+}
+
+a:active{
+	color: red;
 }
