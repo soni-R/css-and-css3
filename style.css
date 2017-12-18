@@ -1,16 +1,10 @@
-#container{	
-	width: 600px;
-	background: #000;
-	color: #fff;
-	margin:30px auto;
-	padding: 10px;
+/*inline elements do not respect width and height properties unless they are styled using 
+display: inline-block | block property*/
+.button{
+	background: #ddd;
+	padding: 5px;
+	min-width: 200px;
+	display: inline-block;
+	/*display: none;  hides the element*/  
 }
-
-#inner{
-	width: 200px;
-	background: #fff;
-	color: #000;
-	margin:0 auto;
-}
-
 
