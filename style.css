@@ -1,10 +1,8 @@
-/*inline elements do not respect width and height properties unless they are styled using 
-display: inline-block | block property*/
 .button{
 	background: #ddd;
 	padding: 5px;
 	min-width: 200px;
-	display: inline-block;
-	/*display: none;  hides the element*/  
+	/*display: none;  removes the element from the page and it doesnot occupy any space */
+	visibility: hidden; /*This value makes element  invisible but still takes up space */
 }
 
