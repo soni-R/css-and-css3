@@ -1,8 +1,35 @@
-.button{
-	background: #ddd;
-	padding: 5px;
-	min-width: 200px;
-	/*display: none;  removes the element from the page and it doesnot occupy any space */
-	visibility: hidden; /*This value makes element  invisible but still takes up space */
+/* margin is used to create space around elements, outside of any defined borders.*/
+/* padding is used to create space around an element's content. */
+
+.text{
+	background: #000;
+	color: #fff;
+	width: 180px;
+	height: 80px;
+	padding: 10px;
 }
 
+h1{
+	margin-top: 0;
+}
+
+/*
+CSS properties for specifying the margin for each side of an element
+    margin-top
+    margin-right
+    margin-bottom
+    margin-left
+
+short-hand property;
+    margin: 10px 20px 25px 30px; 
+
+CSS properties for specifying the padding for each side of an element:
+
+    padding-top
+    padding-right
+    padding-bottom
+    padding-left
+
+ short-hand property;
+    padding: 10px 20px 25px 30px; 
+  */
