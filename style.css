@@ -1,16 +1,19 @@
-#container{
-	background: #aaa;
-	width: 200px;
+.box{
+	position: absolute;
 	height: 200px;
-	/*overflow: auto; This adds the scroll bar only if the content expands specified height */
-	/*overflow: scroll; This by default adds the scroll bar irrespective of height of the content*/
-	overflow-y: scroll;
+	width: 200px;
 }
 
-/*
-overflow property and values
+ /*z-index represents the stack order of an element, 
+ An element with greater stack order is always in front of an element with a lower stack order.*/
 
-overflow: visible | hidden | scroll | auto
-overflow-x: hidden; - Hides horizontal scrollbar
-overflow-y: scroll; -  Adds vertical scrollbar 
-*/
+.box.light{
+	background-color: #ccc;
+	z-index: 2;
+}
+
+.box.dark{
+	left: 100px;
+	background-color: #aaa;
+	z-index: 1;
+}
