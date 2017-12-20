@@ -2,6 +2,13 @@ body{
 	font-family: verdana,Tahoma,sans-serif; 
 	/* If the browser does not support the first font, it will fallback to next font specified.*/
 
-	font-family: "Times New Roman",serif;
-	
+	font-size: 1em;  /* font-size can be measured in px,%,em.*/
+}
+
+h1{
+	font-size: 1.6em;
+}
+
+p span{
+	font-size: 0.8em;
 }
