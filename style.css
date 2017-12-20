@@ -1,14 +1,12 @@
 body{
-	font-family: verdana,Tahoma,sans-serif; 
-	/* If the browser does not support the first font, it will fallback to next font specified.*/
-
-	font-size: 1em;  /* font-size can be measured in px,%,em.*/
+	/*The font shorthand property sets all the font properties in one declaration.*/
+	font: 1em "Times New Roman",serif;
 }
 
-h1{
-	font-size: 1.6em;
-}
+/*
+Syntax:
+The properties that can be set, are (in order): 
+"font-style font-variant font-weight font-size/line-height font-family" 
 
-p span{
-	font-size: 0.8em;
-}
+The font-size and font-family values are required. If one of the other values is missing, the default value will be inserted, if any.
+*/
