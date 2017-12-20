@@ -1,19 +1,15 @@
-.box{
-	position: absolute;
-	height: 200px;
+div{
+	background: #aaa;
 	width: 200px;
+	height: 200px;
+	cursor: move;
 }
 
- /*z-index represents the stack order of an element, 
- An element with greater stack order is always in front of an element with a lower stack order.*/
+/* other values of cursor property
 
-.box.light{
-	background-color: #ccc;
-	z-index: 2;
-}
+ auto | default | none | context-menu | help | pointer | progress | wait | cell | crosshair | text | vertical-text 
+ | alias | copy | move | no-drop | not-allowed | e-resize | n-resize | ne-resize | nw-resize | s-resize | se-resize
+ | sw-resize | w-resize | ew-resize | ns-resize | nesw-resize | nwse-resize | col-resize | row-resize | all-scroll
+ | zoom-in | zoom-out | grab | grabbing 
 
-.box.dark{
-	left: 100px;
-	background-color: #aaa;
-	z-index: 1;
-}
+ */
