@@ -1,11 +1,19 @@
 .container{
-	width: 650px;
-	height: 350px;
-	/*background-image: url('images/tick.png'), url('images/bubble.png');
-	background-repeat: no-repeat;
-	background-position: 50% 50%;*/
-
-	/*shorthand property*/
-	background: url('images/tick.png') no-repeat 50% 50%, url('images/bubble.png') no-repeat;
-
+	width: 300px;
+	height: 300px;
+	border: 1px solid #000;
+	background: url('images/tick2.png') no-repeat 50% 50%;
+	background-size: contain;
 }
+
+/*The background-size property specifies the size of the background images.*/
+
+/*background-size values:
+cover - Resize the background image to cover the entire container
+contain - Resize the background image to make sure the image is fully visible
+background-size: 100px;
+background-size: auto;
+background-size: 50% 50%;
+ first value specifies width of the image, second value: height 
+
+ refer - https://developer.mozilla.org/en-US/docs/Web/CSS/background-size*/
