@@ -1,7 +1,25 @@
-input[type = "submit"]{
-	width: 350px;
-	height: 50px;
-	background: url('images/tick.png') no-repeat 50%;
-	text-indent: -1000px; 
-	/*indent the value of input submit to -1000px, so that text is not visible in the background of image */
+.message{
+	width:200px;
+	border: 1px solid #000;
+	border-radius: 5px;
+	padding: 2px 2px 2px 25px;
+
+	/*background-color: #ccc;
+	background-image: url('images/checkmark.png');
+	background-repeat: no-repeat;
+	background-position: 10px;*/
+
+	/*shorthand property*/
+
+	background: #ccc url('images/checkmark.png') no-repeat 10px;
 }
+
+
+
+/*
+other values:
+background-repeat: repeat|repeat-x|repeat-y|no-repeat;
+background-position:left top|left center|left bottom|right top|right center|right bottom|center top|
+|center center|center bottom
+background-position: 50% 50%; can be positioned using percents and pixels
+ */
