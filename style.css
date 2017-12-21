@@ -1,12 +1,23 @@
-body{
-	/*The font shorthand property sets all the font properties in one declaration.*/
-	font: 1em "Times New Roman",serif;
+.sidebar{
+	background: slategray;
+	width: 200px;
+	float: left;
 }
 
-/*
-Syntax:
-The properties that can be set, are (in order): 
-"font-style font-variant font-weight font-size/line-height font-family" 
+.content{
+	background: darkslategray;
+	width: 600px;
+	float: left;
+}
 
-The font-size and font-family values are required. If one of the other values is missing, the default value will be inserted, if any.
-*/
+.first{
+	background: #ccc;
+	width: 50%;
+	float: left;
+}
+
+.second{
+	background: #aaa;
+	width: 50%;
+	float: left;
+}
