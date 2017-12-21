@@ -1,23 +1,22 @@
-.sidebar{
-	background: slategray;
-	width: 200px;
-	float: left;
-}
-
-.content{
-	background: darkslategray;
-	width: 600px;
-	float: left;
-}
-
-.first{
+.container{
 	background: #ccc;
-	width: 50%;
+}
+
+.box{
+	background: red;
+	width: 200px;
+	height: 200px;
+}
+
+.float-left{
 	float: left;
 }
 
-.second{
-	background: #aaa;
-	width: 50%;
-	float: left;
+.float-right{
+	float: right;
+}
+
+.clear{
+	clear: both;
+	display: block;
 }
