@@ -1,8 +1,5 @@
-.column{
-	width: 170px;
-	padding: 5px;
-	border-left: 1px solid #000;
-	border-right: 1px solid #000;
-	text-align: justify; /*other values: left|right|center|justify;*/
+/*The text-indent property specifies the indentation of the first line in a text-block.*/
+article p{
+	width: 400px;
+	text-indent: 20px; /*Indent the first line of all <p> elements with 20 pixels */
 }
-
