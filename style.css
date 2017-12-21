@@ -1,31 +1,8 @@
-.container{
-	background: #ccc;
+h1{
+	text-transform: capitalize;
 }
 
-.box{
-	background: red;
-	width: 200px;
-	height: 200px;
-}
-
-.float-left{
-	float: left;
-}
-
-.float-right{
-	float: right;
-}
-
-.clearfix:before,
-.clearfix:after{
-	content:" ";
-	display: table;
-}
-
-.clearfix:after{
-	clear: both;
-}
-
-.clearfix{
-	*zoom: 1;  /*for older IE versions that do not support before and after pseudo class*/
-}
+/*
+syntax:
+text-transform: none|capitalize|uppercase|lowercase|initial|inherit;
+*/
