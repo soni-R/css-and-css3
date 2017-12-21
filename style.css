@@ -1,19 +1,20 @@
-.container{
+#container{
+	background: #eee;
 	width: 300px;
 	height: 300px;
-	border: 1px solid #000;
-	background: url('images/tick2.png') no-repeat 50% 50%;
-	background-size: contain;
+	border: 1px solid #000; /*shorthand property*/
+
+	border-bottom-width: 5px;
+	border-top-color: rgb(255,150,0);
+	box-sizing: border-box;
 }
 
-/*The background-size property specifies the size of the background images.*/
+/*syntax:
+border: border-width border-style border-color;
 
-/*background-size values:
-cover - Resize the background image to cover the entire container
-contain - Resize the background image to make sure the image is fully visible
-background-size: 100px;
-background-size: auto;
-background-size: 50% 50%;
- first value specifies width of the image, second value: height 
-
- refer - https://developer.mozilla.org/en-US/docs/Web/CSS/background-size*/
+types of borders:
+border: 1px solid #000;
+border: 1px dashed #000;
+border: 1px dotted #000;
+border: 3px double #000;
+border: 10px inset red;*/
