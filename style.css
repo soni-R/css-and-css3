@@ -16,7 +16,16 @@
 	float: right;
 }
 
-.clear{
+.clearfix:before,
+.clearfix:after{
+	content:" ";
+	display: table;
+}
+
+.clearfix:after{
 	clear: both;
-	display: block;
+}
+
+.clearfix{
+	*zoom: 1;  /*for older IE versions that do not support before and after pseudo class*/
 }
