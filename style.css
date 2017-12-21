@@ -1,25 +1,11 @@
-.message{
-	width:200px;
-	border: 1px solid #000;
-	border-radius: 5px;
-	padding: 2px 2px 2px 25px;
-
-	/*background-color: #ccc;
-	background-image: url('images/checkmark.png');
+.container{
+	width: 650px;
+	height: 350px;
+	/*background-image: url('images/tick.png'), url('images/bubble.png');
 	background-repeat: no-repeat;
-	background-position: 10px;*/
+	background-position: 50% 50%;*/
 
 	/*shorthand property*/
+	background: url('images/tick.png') no-repeat 50% 50%, url('images/bubble.png') no-repeat;
 
-	background: #ccc url('images/checkmark.png') no-repeat 10px;
 }
-
-
-
-/*
-other values:
-background-repeat: repeat|repeat-x|repeat-y|no-repeat;
-background-position:left top|left center|left bottom|right top|right center|right bottom|center top|
-|center center|center bottom
-background-position: 50% 50%; can be positioned using percents and pixels
- */
