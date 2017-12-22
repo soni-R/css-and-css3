@@ -1,20 +1,16 @@
 #container{
-	background: #eee;
 	width: 300px;
 	height: 300px;
-	border: 1px solid #000; /*shorthand property*/
-
-	border-bottom-width: 5px;
-	border-top-color: rgb(255,150,0);
-	box-sizing: border-box;
+	border: 20px solid transparent;
+	border-image: url('images/border.png') 30 round;  /*other values stretch repeat round*/
+	/*border-image: url('images/border.png') 20% stretch;*/
+	/*border-image: linear-gradient(lightblue,slategray) 10;*/
 }
 
-/*syntax:
-border: border-width border-style border-color;
+/*
+Syntax:
+border-image: source slice width outset repeat|initial|inherit;
 
-types of borders:
-border: 1px solid #000;
-border: 1px dashed #000;
-border: 1px dotted #000;
-border: 3px double #000;
-border: 10px inset red;*/
+/* image-source | height | width | repeat 
+border-image: url("/images/border.png") 30 30 repeat;
+*/
